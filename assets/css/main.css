@@ -3963,3 +3963,10 @@ input, select, textarea {
 			}
 
 		}
+
+/* custom */
+	
+	.white-text{
+		color:white!important;
+		text-shadow: 3px 3px #1a19195e!important;
+	}
