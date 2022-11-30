@@ -3217,6 +3217,15 @@ input, select, textarea {
 					padding: 4em 4em 2em 4em ;
 				}
 
+				.sm-hide{
+					display:block!important;
+				}
+
+				.md-hide{
+					display:none!important;
+				}
+
+
 			}
 
 			@media screen and (max-width: 1280px) {
@@ -3225,12 +3234,55 @@ input, select, textarea {
 					width: 100%;
 				}
 
+				.sm-hide{
+					display:block!important;
+				}
+
+				.md-hide{
+					display:none!important;
+				}
+
 			}
 
 			@media screen and (max-width: 736px) {
 
 				.wrapper > .inner {
 					padding: 3em 2em 1em 2em ;
+				}
+
+				.sm-hide{
+					display:none!important;
+				}
+
+				.wrapper.style1 {
+					background-color: #5e42a6;
+					margin-left: 0em!important;
+				}
+
+				.sm-width{
+					width: 70%!important;
+				}
+
+				.wrapper.style2 {
+					background-color: #5052b5;
+					margin-left: 0em!important;
+				}
+
+				.wrapper.style3 {
+					background-color: #b74e91;
+					margin-left: 0em!important;
+				}
+
+				.sm-max-width{
+					width:121%!important;
+				}
+
+				.sm-hide{
+					display:none!important;
+				}
+
+				.md-hide{
+					display:block!important;
 				}
 
 			}
@@ -3301,7 +3353,7 @@ input, select, textarea {
 			@media screen and (max-width: 736px) {
 
 				.wrapper.fullscreen {
-					padding: 2em 0;
+					padding: 5em 0;
 					min-height: 0;
 				}
 
